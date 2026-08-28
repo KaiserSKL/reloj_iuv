@@ -14,10 +14,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.273" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <DigitalClock
         android:layout_width="wrap_content"
@@ -28,13 +27,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/analogClock"
-        app:layout_constraintVertical_bias="0.413" />
+        app:layout_constraintVertical_bias="0.218" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="134dp"
-        android:layout_height="146dp"
+        android:layout_width="257dp"
+        android:layout_height="264dp"
         app:srcCompat="@drawable/cuadro_central"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="506dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
